@@ -8,5 +8,5 @@
 - SQLite DB를 활용한 데이터 저장
 
 ## 주요 코드
-[kotlin 코드](https://github.com/junghyunseeoo/MovieLog/tree/main/app/src/main/java/ddwu/com/mobile/finalreport)
-[.xml 레이아웃 코드](https://github.com/junghyunseeoo/MovieLog/tree/main/app/src/main/res/layout)
+- [kotlin 코드](https://github.com/junghyunseeoo/MovieLog/tree/main/app/src/main/java/ddwu/com/mobile/finalreport)
+- [.xml 레이아웃 코드](https://github.com/junghyunseeoo/MovieLog/tree/main/app/src/main/res/layout)
