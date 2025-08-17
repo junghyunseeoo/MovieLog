@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/developer_photo"
+        android:layout_width="154dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="148dp"
+        android:contentDescription="개발자 사진"
+        android:src="@drawable/my_photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="302dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="205dp"
+        android:text="이름: 서정현\n생년월일: 2002년 5월 8일\n학력: 동덕여자대학교 컴퓨터학과"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/developer_photo"
+        app:layout_constraintVertical_bias="0.072"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="95dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="돌아가기"
+        android:textColorLink="#998BB1"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
